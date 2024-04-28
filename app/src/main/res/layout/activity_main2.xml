@@ -26,13 +26,14 @@
         android:layout_height="wrap_content"
         android:text="Kebaikan Alam"
         android:textColor="@color/black"
-        android:textSize="16sp"
+        android:textSize="20sp"
         android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.52" />
+        app:layout_constraintVertical_bias="0.533" />
 
     <TextView
         android:id="@+id/textView2"
@@ -40,14 +41,14 @@
         android:layout_height="wrap_content"
         android:text="Kebaikan Hidup"
         android:textColor="@color/black"
-        android:textSize="16sp"
+        android:textSize="20sp"
         android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.56" />
+        app:layout_constraintVertical_bias="0.567" />
 
     <ImageView
         android:id="@+id/imageView16"
@@ -75,8 +76,8 @@
 
     <ImageButton
         android:id="@+id/imageButton2"
-        android:layout_width="363dp"
-        android:layout_height="93dp"
+        android:layout_width="343dp"
+        android:layout_height="79dp"
         android:contentDescription="Login"
         android:onClick="imageButton2"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -88,8 +89,8 @@
 
     <ImageButton
         android:id="@+id/imageButton3"
-        android:layout_width="365dp"
-        android:layout_height="80dp"
+        android:layout_width="356dp"
+        android:layout_height="70dp"
         android:contentDescription="Register"
         android:onClick="imageButton3"
         app:layout_constraintBottom_toBottomOf="parent"

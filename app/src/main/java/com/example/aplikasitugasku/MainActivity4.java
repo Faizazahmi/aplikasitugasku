@@ -21,6 +21,9 @@ public class MainActivity4 extends AppCompatActivity {
     public void imageButton4(View view) {
         Intent intent = new Intent(MainActivity4.this, MainActivity2.class);
         startActivity(intent);
-        ;
+
+    }; public void imageButton10(View view) {
+        Intent intent = new Intent(MainActivity4.this, MainActivity3.class);
+        startActivity(intent);
     }
 }
